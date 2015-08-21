@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"ULib-SQL"
+	"version"			"1.0"
+	"up_date"			"08/21/15"
+	"author_name"			"es5sujo"
+	"author_email"			"spam_me@josu.se"
+	"author_url"			"http://josu.se/"
+	"info"				"MySQL data provider for the ULib framework. Overrides permission data functions"
+	"override"			"1"
+}
