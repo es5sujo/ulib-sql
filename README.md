@@ -12,6 +12,7 @@ Simple how-to guide on installing it
 ### Database
 * Add the table "groups"
 
+```SQL
 CREATE TABLE `groups` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) NOT NULL,
@@ -20,9 +21,11 @@ CREATE TABLE `groups` (
   UNIQUE KEY `idgroups_UNIQUE` (`id`),
   UNIQUE KEY `name_UNIQUE` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=latin1;
+```
 
 * Add the table player_permissions
-
+* 
+```SQL
 CREATE TABLE `player_permissions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `steamid` varchar(50) NOT NULL,
@@ -32,6 +35,7 @@ CREATE TABLE `player_permissions` (
   UNIQUE KEY `idnew_table_UNIQUE` (`id`),
   UNIQUE KEY `steamid_UNIQUE` (`steamid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+```
 
 # Usage
 Simple usage guide
